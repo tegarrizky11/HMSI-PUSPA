@@ -1,5 +1,3 @@
-![HMSI](public/assets/image/LOGO HMSI FIX.png "HMSI")
-
 
 ## Fitur
 
