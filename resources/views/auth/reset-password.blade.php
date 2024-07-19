@@ -17,24 +17,24 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
 
 <head>
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('favicon/favicon.ico') }}">
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('favicon/apple-icon-57x57.png') }}">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('favicon/apple-icon-60x60.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('favicon/apple-icon-72x72.png') }}">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('favicon/apple-icon-76x76.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('favicon/apple-icon-114x114.png') }}">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('favicon/apple-icon-120x120.png') }}">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('favicon/apple-icon-144x144.png') }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('favicon/apple-icon-152x152.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favicon/apple-icon-180x180.png') }}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('favicon/android-icon-192x192.png') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon/favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('favicon/favicon-96x96.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon/favicon-16x16.png') }}">
+    <link rel="icon" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon/LOGO HMSI FIX.png') }}">
     <link rel="manifest" href="{{ asset('favicon/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="theme-color" content="#0191D7">
-    <meta name="msapplication-TileImage" content="{{ asset('favicon/icon-144x144.png') }}">
+    <meta name="msapplication-TileImage" content="{{ asset('favicon/LOGO HMSI FIX.png') }}">
 
     <!-- META DATA -->
     <meta charset="UTF-8">
@@ -166,5 +166,6 @@ $page_attr_title = ($page_attr->title == '' ? '' : $page_attr->title . ' | ') . 
 
     <!-- Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/js/bootstrap.bundle.min.js" integrity="sha512-Sct/LCTfkoqr7upmX9VZKEzXuRk5YulFoDTunGapYJdlCwA+Rl4RhgcPCLf7awTNLmIVrszTPNUFu4MSesep5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.tiny.cloud/1/k4t0m253rga2njkxsno09vqetihig6e2ck2ncvr32h38whww/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
 
 </html>

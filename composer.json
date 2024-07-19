@@ -1,7 +1,7 @@
 {
     "name": "iseplutpinur/karmapack",
     "type": "project",
-    "description": "Aplikasi sistem informasi anggota organisasi Keluarga Mahasiswa dan Pelajar Cianjur Kidul (Karmapack)",
+    "description": "Aplikasi sistem informasi anggota himpunan mahasiswa sistem informasi  (HMSI)",
     "keywords": [
         "framework",
         "laravel",

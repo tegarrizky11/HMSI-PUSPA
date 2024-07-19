@@ -37,7 +37,7 @@
                         </div>
                         <div data-anim="slide-up delay-2 ">
                             <h1 class="page-header__title text-24">
-                                STRUKTUR KEPENGURUSAN<br>KELUARGA MAHASISWA DAN PELAJAR CIANJUR KIDUL
+                                STRUKTUR KEPENGURUSAN<br>HIMPUNAN MAHASISWA SISTEM INFORMASI
                             </h1>
                         </div>
                         <div data-anim="slide-up delay-3">

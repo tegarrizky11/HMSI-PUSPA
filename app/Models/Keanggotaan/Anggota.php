@@ -44,7 +44,7 @@ class Anggota extends Model
     protected $primaryKey = 'id';
     protected $table = 'anggotas';
     const tableName = 'anggotas';
-    const image_default = 'assets/anggota/anggota_default.png';
+    const image_default = 'assets/anggota/LOGO HMSI FIX.png';
     const image_folder = '/assets/anggota';
 
     public function user()

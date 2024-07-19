@@ -81,7 +81,7 @@
                                         <a target="_blank"
                                             href="https://www.facebook.com/sharer.php?u={{ route('artikel', $model->slug) }}"
                                             title="Share To Facebook">
-                                            <i class="fab fa-facebook-f"></i>
+                                            <i class="fab fa-linkedin-in"></i>
                                         </a>
                                         <a target="_blank"
                                             href="https://api.whatsapp.com/send?text={{ route('artikel', $model->slug) }} {{ $model->nama }}"

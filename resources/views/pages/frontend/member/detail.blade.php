@@ -77,7 +77,7 @@
                                 @endphp
                                 <a target="_blank" href="https://www.facebook.com/sharer.php?u={{ $user_link }}"
                                     title="Share To Facebook" data-anim-child="slide-left delay-{{ $anim++ }}">
-                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-linkedin-in"></i>
                                 </a>
                                 <a target="_blank"
                                     href="https://api.whatsapp.com/send?text={{ $user_link }} {{ $model->name }}"

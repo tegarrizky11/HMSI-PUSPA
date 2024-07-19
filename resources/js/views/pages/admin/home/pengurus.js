@@ -59,7 +59,7 @@ $(document).ready(function () {
                     '';
 
                 const facebook = full.facebook ?
-                    `<a target="_blank" href="${full.facebook}"><i class="fab fa-facebook-square me-1"></i> ${full.facebook}</a>` :
+                    `<a target="_blank" href="${full.facebook}"><i class="fab fa-linkedin-in"></i> ${full.facebook}</a>` :
                     '';
 
                 const instagram = full.instagram ?

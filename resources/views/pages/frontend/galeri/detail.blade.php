@@ -49,7 +49,7 @@
                 <li class="list-inline-item list-style-none me-4">
                     <a href="https://www.facebook.com/sharer.php?u={{ route('artikel', $model->slug) }}"
                         title="Share To Facebook" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-linkedin-in"></i>
                     </a>
                 </li>
 

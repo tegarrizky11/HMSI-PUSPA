@@ -29,7 +29,7 @@ class Jabatan extends Model
     protected $table = 'pengurus_jabatans';
     const tableName = 'pengurus_jabatans';
     const image_folder = '/assets/pengurus/jabatan';
-    const image_default = 'assets/image/logo_default.png';
+    const image_default = 'assets/image/LOGO HMSI FIX.png';
 
     public function parent()
     {
@@ -60,7 +60,7 @@ class Jabatan extends Model
     public function fotoUrl()
     {
         $foto = $this->attributes['foto'];
-        return $foto ? url(self::image_folder . '/' . $foto) : asset('assets/image/logo_default.png');
+        return $foto ? url(self::image_folder . '/' . $foto) : asset('assets/image/LOGO FIX HMSI.png');
     }
 
     public function fotoUrlDefault()

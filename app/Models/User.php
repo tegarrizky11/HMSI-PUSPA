@@ -28,7 +28,7 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, HasProfilePhoto, Notifiable, TwoFactorAuthenticatable, HasRoles, Loggable;
     const tableName = 'users';
-    const image_default = 'assets/image/anggota_default.png';
+    const image_default = 'assets/image/LOGO HMSI FIX.png';
     const image_folder = '/assets/anggota';
     protected $table = 'users';
 
@@ -76,7 +76,7 @@ class User extends Authenticatable
     public function fotoUrl()
     {
         $foto = $this->attributes['foto'];
-        return $foto ? url(static::image_folder . '/' . $foto) : asset('assets/image/anggota_default.png');
+        return $foto ? url(static::image_folder . '/' . $foto) : asset('assets/image/LOGO HMSI FIX.png');
     }
 
     public function fotoUrlDefault()

@@ -22,8 +22,8 @@ class AnggotaKontakJenisTableSeeder extends Seeder
             0 => 
             array (
                 'id' => '1',
-                'nama' => 'Facebook',
-                'icon' => 'fab fa-facebook-f',
+                'nama' => 'linkedin',
+                'icon' => 'fab fa-linkedin-in',
                 'keterangan' => 'Sosial Media',
                 'status' => '1',
                 'created_at' => '2023-02-11 00:07:45',

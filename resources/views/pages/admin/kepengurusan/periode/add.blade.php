@@ -138,7 +138,7 @@
 @endsection
 
 @section('stylesheet')
-    <script src="https://cdn.tiny.cloud/1/{{ config('app.tiny_mce_api_key') }}/tinymce/6/tinymce.min.js"
+    <script src="https://cdn.tiny.cloud/1/k4t0m253rga2njkxsno09vqetihig6e2ck2ncvr32h38whww/tinymce/7/tinymce.min.js"
         referrerpolicy="origin"></script>
 @endsection
 

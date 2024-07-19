@@ -30,7 +30,7 @@ class Periode extends Model
     protected $primaryKey = 'id';
     protected $table = 'pengurus_periodes';
     const tableName = 'pengurus_periodes';
-    const image_default = 'assets/image/logo_default.png';
+    const image_default = 'assets/image/LOGO HMSI FIX.png';
     const image_folder = '/assets/periode';
     const homeCacheKey = 'homePengurus';
 

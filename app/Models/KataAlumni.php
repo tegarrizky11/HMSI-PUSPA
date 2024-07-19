@@ -47,7 +47,7 @@ class KataAlumni extends Model
             ->get();
         $result->map(function ($item) {
             $image_folder = User::image_folder;
-            $item->user_foto = $item->user_foto ? url("$image_folder/$item->user_foto") : asset('assets/image/anggota_default.png');
+            $item->user_foto = $item->user_foto ? url("$image_folder/$item->user_foto") : asset('assets/image/LOGO HMSI FIX.png');
             return $item;
         });
         return $result;

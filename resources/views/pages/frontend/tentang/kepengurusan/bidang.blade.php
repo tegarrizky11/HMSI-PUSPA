@@ -36,7 +36,7 @@
                     <div class="col-auto">
                         <div data-anim="slide-up delay-1 " class="mb-30">
                             <img src="{{ $jabatan->fotoUrl() }}" alt="{{ $jabatan->periode->nama }}"
-                                onerror="this.src='{{ asset('assets/image/logo_default.png') }}';this.onerror='';"
+                                onerror="this.src='{{ asset('assets/image/LOGO HMSI FIX.png') }}';this.onerror='';"
                                 style="max-width: 500px; width:100%">
                         </div>
                         <div data-anim="slide-up delay-2 ">
@@ -47,7 +47,7 @@
                             </h1>
                         </div>
                         <div data-anim="slide-up delay-3">
-                            <p class="text-20 fw-500 mt-15">KELUARGA MAHASISWA DAN PELAJAR CIANJUR KIDUL</p>
+                            <p class="text-20 fw-500 mt-15">HIMPUNAN MAHASISWA SISTEM INFORMASI</p>
                         </div>
                         <div data-anim="slide-up delay-4">
                             <p class="text-20 fw-500 mt-15">

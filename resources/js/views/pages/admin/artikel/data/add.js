@@ -39,9 +39,9 @@ $(document).ready(function () {
     });
 
     tinymce.init({
-        selector: '#detail',
-        plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount code',
-        toolbar: 'undo redo | fontsize bold italic underline strikethrough align lineheight | link image media table | addcomment showcomments | spellcheckdialog a11ycheck | checklist numlist bullist indent outdent | emoticons charmap | blocks fontfamily removeformat',
+        selector: '#myTextarea',
+        plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage advtemplate ai mentions tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss markdown',
+        toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
         tinycomments_mode: 'embedded',
         tinycomments_author: 'Author name',
         mergetags_list: [{
@@ -116,6 +116,7 @@ $(document).ready(function () {
         relative_urls: false,
         skin: document.querySelector('html').classList.contains('dark-theme') ? "oxide-dark" : "oxide",
         content_css: document.querySelector('html').classList.contains('dark-theme') ? "dark" : "default",
+        document_base_url: "127.0.0.1",
     });
 
     $("#nama").keyup(function () {

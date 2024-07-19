@@ -21,4 +21,6 @@
             {{ $slot }}
         </div>
     </body>
+    
+    <script src="https://cdn.tiny.cloud/1/k4t0m253rga2njkxsno09vqetihig6e2ck2ncvr32h38whww/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
 </html>

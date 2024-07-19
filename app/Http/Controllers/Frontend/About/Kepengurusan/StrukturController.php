@@ -20,7 +20,7 @@ class StrukturController extends Controller
     {
         $page_attr = [
             'title' => $periode->nama,
-            'description' => "STRUKTUR KEPENGURUSAN KELUARGA MAHASISWA DAN PELAJAR CIANJUR KIDUL PERIODE $periode->dari - $periode->sampai $periode->nama",
+            'description' => "STRUKTUR KEPENGURUSAN HIMPUNAN MAHASISWA SISTEM INFORMASI $periode->dari - $periode->sampai $periode->nama",
             'periode_id' => $periode->id,
             'image' => $periode->fotoUrl(),
             'navigation' => 'tentang.kepengurusan.struktur',

@@ -22,11 +22,11 @@ class SocialMediaTableSeeder extends Seeder
             0 => 
             array (
                 'id' => '1',
-                'nama' => 'Facebook',
-                'icon' => 'fab fa-facebook-f',
+                'nama' => 'linkedin',
+                'icon' => 'fab fa-linkedin-in',
                 'url' => 'https://www.facebook.com/karmapack.id',
                 'order' => '1',
-                'keterangan' => 'Facebook Utama',
+                'keterangan' => 'linkedin Utama',
                 'status' => '1',
                 'created_at' => '2022-04-18 06:56:15',
                 'updated_at' => '2022-04-18 06:56:15',
