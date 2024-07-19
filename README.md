@@ -1,6 +1,5 @@
-![Karmapack](public/assets/image/LOGO HMSI FIX.png "HMSI")
+![HMSI](public/assets/image/LOGO HMSI FIX.png "HMSI")
 
-Aplikasi Sistem Informasi Anggota (SIA) organisasi Keluarga Mahasiswa dan Pelajar Cianjur Kidul (Karmapack)
 
 ## Fitur
 
